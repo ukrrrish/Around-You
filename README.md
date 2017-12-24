@@ -8,7 +8,7 @@
    
    The Details such as Open Hours,Rating,Name and Rating of the place type with in 5km of radius is listed out.
    
-   On selection you be diredted to place.
+   On selection you be shown directions to place.
    
     Screenshots
  
