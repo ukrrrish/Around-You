@@ -12,6 +12,7 @@
    
     Screenshots
  
- ![alt tag](https://github.com/ukrrrish/Around-You/blob/master/imgs/around_you.png) 
- ![alt tag](https://github.com/ukrrrish/Around-You/blob/master/imgs/direction.png)
- ![alt tag](https://github.com/ukrrrish/Around-You/blob/master/imgs/list.png)
+   ![alt tag](https://github.com/ukrrrish/Around-You/blob/master/imgs/around_you.png) 
+   ![alt tag](https://github.com/ukrrrish/Around-You/blob/master/imgs/list.png)
+   ![alt tag](https://github.com/ukrrrish/Around-You/blob/master/imgs/direction.png)
+ 
