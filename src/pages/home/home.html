@@ -1,0 +1,35 @@
+<ion-header >
+  <ion-navbar>
+    <ion-title>
+      Around You
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<div class="currentitem" *ngIf="currentregional">
+  <button ion-item no-lines (click)="viewPlace(currentregional.title)">
+    <h2>{{ currentregional.title }}</h2>
+    <ion-note item-right icon-only><ion-icon name="ios-arrow-forward"></ion-icon></ion-note>
+  </button>
+</div>
+
+<ion-content>
+
+  <div class="map" [class.hidemap]="!((switch == 'map') || error)">
+    <ion-searchbar #searchbar placeholder="Search" [hidden]="!search"></ion-searchbar>
+    <div id="map" #map></div>
+  </div>
+         <div id ="iconrow" class="row" >
+            <div   class="col-xs-3 col-md-3"  *ngFor="let itemselecct of placetypesdisplay;let ind=index" (click)="setItemType(ind)" >
+               <h6>
+               {{itemselecct.placetype}}
+               </h6>
+               <div id="iconelement">
+               <i id="iconimage" [ngClass]="itemselecct.fontclass" aria-hidden="true"></i>
+               </div>
+            </div>
+         </div>      
+
+</ion-content>
+
+
